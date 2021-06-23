@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Setup"
+    android:background="#FFC124">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top|center"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppins_semibold"
+            android:paddingTop="10dp"
+            android:text="Interests"
+            android:textAlignment="center"
+            android:textColor="#00575C"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppins_semibold"
+            android:lineSpacingExtra="0sp"
+            android:text="Pick 3!"
+            android:textAlignment="center"
+            android:textColor="#616F70"
+            android:textSize="36sp"
+            app:lineHeight="0sp" />
+
+        <Button
+            android:layout_width="370dp"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_marginRight="100dp"
+            android:background="#43ABAC"
+            android:fontFamily="@font/poppins_semibold"
+            android:onClick="selectedinterest"
+            android:radius="24dp"
+            android:text="   Mahjong"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textSize="36dp" />
+
+        <Button
+            android:layout_width="370dp"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_marginRight="100dp"
+            android:background="#43ABAC"
+            android:fontFamily="@font/poppins_semibold"
+            android:onClick="selectedinterest"
+            android:radius="24dp"
+            android:text="   Chess"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textSize="36dp" />
+
+        <Button
+            android:layout_width="370dp"
+            android:layout_height="76dp"
+            android:layout_margin="10dp"
+            android:layout_marginRight="100dp"
+            android:background="#43ABAC"
+            android:fontFamily="@font/poppins_semibold"
+            android:onClick="selectedinterest"
+            android:radius="24dp"
+            android:text="   TaiChi"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textSize="36dp" />
+
+        <Button
+            android:layout_width="370dp"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_marginRight="100dp"
+            android:background="#43ABAC"
+            android:fontFamily="@font/poppins_semibold"
+            android:onClick="selectedinterest"
+            android:radius="24dp"
+            android:text="   Gardening"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textSize="36dp" />
+
+        <Button
+            android:id="@+id/others"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginRight="100dp"
+            android:background="#43ABAC"
+            android:fontFamily="@font/poppins_semibold"
+            android:onClick="other"
+            android:radius="24dp"
+            android:text="   Others:"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textSize="36dp" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="#43ABAC"
+            android:fontFamily="@font/poppins_semibold"
+            android:onClick="setuplater"
+            android:radius="24dp"
+            android:text="Next"
+            android:textColor="#FFFFFF"
+            android:textSize="48dp"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+    </TableLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

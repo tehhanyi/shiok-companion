@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Setup"
+    android:background="#FFC124">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top|center"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppins_semibold"
+            android:paddingTop="10dp"
+            android:text="Languages"
+            android:textAlignment="center"
+            android:textColor="#00575C"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppins_semibold"
+            android:lineSpacingExtra="0sp"
+            android:text="Pick One!"
+            android:textAlignment="center"
+            android:textColor="#616F70"
+            android:textSize="36sp"
+            app:lineHeight="0sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="287dp"
+            android:layout_height="104dp"
+            android:layout_margin="10dp"
+            android:background="#0B7C7B"
+            android:fontFamily="@font/poppins_semibold"
+            android:onClick="selectedeng"
+            android:radius="24dp"
+            android:text="English"
+            android:textColor="#FFFFFF"
+            android:textSize="50dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="287dp"
+            android:layout_height="104dp"
+            android:layout_margin="10dp"
+            android:background="#0B7C7B"
+            android:fontFamily="@font/poppins_semibold"
+            android:letterSpacing="0.2"
+            android:onClick="selectedchi"
+            android:radius="30dp"
+            android:text="华文"
+            android:textColor="#FFFFFF"
+            android:textSize="50dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="287dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:background="#0B7C7B"
+            android:fontFamily="@font/poppins_semibold"
+            android:onClick="selectedmal"
+            android:radius="24dp"
+            android:text="Bahasa  Melayu "
+            android:textColor="#FFFFFF"
+            android:textSize="40dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="287dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:background="#0B7C7B"
+            android:fontFamily="@font/poppins_semibold"
+            android:onClick="selectedtam"
+            android:radius="24dp"
+            android:text="தமிழ்"
+            android:textColor="#FFFFFF"
+            android:textSize="50dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="#43ABAC"
+            android:fontFamily="@font/poppins_semibold"
+            android:onClick="setfont"
+            android:radius="24dp"
+            android:text="Next"
+            android:textColor="#FFFFFF"
+            android:textSize="36dp"
+            android:visibility="gone" />
+    </LinearLayout>
+    </TableLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
